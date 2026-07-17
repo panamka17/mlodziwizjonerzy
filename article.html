@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wpis - KMW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { main: '#0aa6b5', side1: '#40c3b5', side2: '#0b9d92', side3: '#0b5277', side4: '#10214b' },
+                    fontFamily: { sans: ['Poppins', 'sans-serif'], display: ['Montserrat', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased overflow-x-hidden">
+
+    <nav class="bg-white text-black sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between min-h-[96px] py-2">
+                
+                <a href="index.html" class="flex-shrink-0 flex items-center focus:outline-none focus:ring-2 focus:ring-main focus:ring-offset-2 rounded-md p-1" aria-label="Strona główna KMW">
+                    <img src="https://i.imgur.com/nOuGGpy.png" alt="" aria-hidden="true" class="h-12 sm:h-16 w-auto object-contain">
+                    <div style="font-family: Verdana, sans-serif;" class="ml-3 text-[10px] sm:text-xs lg:text-sm leading-tight text-black tracking-tight text-center">
+                        STOWARZYSZENIE<br>
+                        <strong>KOLEKTYW MŁODYCH</strong><br>
+                        <strong>WIZJONERÓW</strong>
+                    </div>
+                </a>
+                
+                <input type="checkbox" id="mobile-menu-toggle" class="peer hidden" aria-hidden="true">
+                
+                <div class="absolute top-[100%] left-0 w-full bg-white shadow-xl border-t border-gray-100 hidden peer-checked:flex flex-col lg:static lg:w-auto lg:shadow-none lg:border-t-0 lg:flex lg:flex-row items-center lg:space-x-6 xl:space-x-8 font-bold py-6 lg:py-0 z-40 transition-all">
+                    <a href="index.html" class="block w-full lg:w-auto text-center py-3 lg:py-0 text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md px-2">Strona główna</a>
+                    <a href="news.html" class="block w-full lg:w-auto text-center py-3 lg:py-0 text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md px-2">Aktualności</a>
+                    <a href="projects.html" class="block w-full lg:w-auto text-center py-3 lg:py-0 text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md px-2">Projekty i inicjatywy</a>
+                    <a href="aboutus.html" class="block w-full lg:w-auto text-center py-3 lg:py-0 text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md px-2">O nas</a>
+                    <a href="contact.html" class="block w-full lg:w-auto text-center py-3 lg:py-0 text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md px-2">Kontakt</a>
+                    
+                    <div class="flex lg:hidden flex-col items-center pt-6 mt-2 border-t border-gray-100 w-[80%] space-y-4">
+                        <div class="flex space-x-6">
+                            <!-- Mobile Social Links -->
+                            <a href="https://instagram.com/mlodziwizjonerzy" target="_blank" class="text-black hover:text-main focus:outline-none focus:ring-2 focus:ring-main rounded-md p-1">
+                                <span class="sr-only">Nasz Instagram</span>
+                                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                            </a>
+                            <a href="https://facebook.com/kolektywmlodychwizjonerow" target="_blank" class="text-black hover:text-main focus:outline-none focus:ring-2 focus:ring-main rounded-md p-1">
+                                <span class="sr-only">Nasz Facebook</span>
+                                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+                            <a href="mailto:kolektywmlodychwizjonerow@gmail.com" class="text-black hover:text-main focus:outline-none focus:ring-2 focus:ring-main rounded-md p-1">
+                                <span class="sr-only">Napisz e-mail</span>
+                                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4.236l-8 4.882-8-4.882V6.31l8 4.882 8-4.882v1.926z"/></svg>
+                            </a>
+                        </div>
+                        <div class="flex space-x-6 text-sm font-bold">
+                            <a href="#" class="text-main focus:outline-none focus:ring-2 focus:ring-main rounded-md px-1" aria-label="Wersja Polska">PL</a>
+                            <a href="#" class="text-black hover:text-main focus:outline-none focus:ring-2 focus:ring-main rounded-md px-1" aria-label="English Version">EN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-4 lg:space-x-6">
+                    <div class="hidden lg:flex items-center space-x-4">
+                        <!-- Desktop Social Links -->
+                        <a href="https://instagram.com/mlodziwizjonerzy" target="_blank" class="text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md p-1">
+                            <span class="sr-only">Nasz Instagram</span>
+                            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://facebook.com/kolektywmlodychwizjonerow" target="_blank" class="text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md p-1">
+                            <span class="sr-only">Nasz Facebook</span>
+                            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="mailto:kolektywmlodychwizjonerow@gmail.com" class="text-black hover:text-main transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-main rounded-md p-1">
+                            <span class="sr-only">Napisz e-mail</span>
+                            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4.236l-8 4.882-8-4.882V6.31l8 4.882 8-4.882v1.926z"/></svg>
+                        </a>
+                        <!-- Desktop Language Menu Dropdown -->
+                        <div class="relative group ml-2 py-6">
+                            <button aria-haspopup="true" aria-expanded="false" class="text-black hover:text-main transition-colors duration-300 flex items-center focus:outline-none focus:ring-2 focus:ring-main rounded-md px-2 py-1">
+                                <span class="sr-only">Zmień język / Change language</span>
+                                <svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                                <span class="ml-1 text-sm font-bold">PL</span>
+                            </button>
+                            <div class="absolute right-0 top-[4.5rem] mt-2 w-36 bg-white rounded-md shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                                <a href="#" class="block px-4 py-3 text-sm font-bold text-main border-b border-gray-50 focus:outline-none focus:bg-gray-50 rounded-t-md">Polski (PL)</a>
+                                <a href="#" class="block px-4 py-3 text-sm font-bold text-black hover:text-main transition-colors focus:outline-none focus:bg-gray-50 rounded-b-md">English (EN)</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Hamburger Icon -->
+                    <label for="mobile-menu-toggle" tabindex="0" aria-label="Otwórz menu mobilne" role="button" class="lg:hidden cursor-pointer text-black hover:text-main p-2 focus:outline-none focus:ring-2 focus:ring-main rounded-md">
+                        <svg aria-hidden="true" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="article-header" class="relative min-h-[350px] flex items-center justify-center text-center px-4 bg-side2 overflow-hidden">
+        <div id="article-bg" class="absolute inset-0 bg-cover bg-center opacity-40" aria-hidden="true"></div>
+        <div class="relative z-10 max-w-4xl mx-auto py-12">
+            <span id="article-tag" class="inline-block bg-white text-side4 px-5 py-2 rounded-full font-bold uppercase tracking-widest text-xs mb-6 shadow-xl" style="display: none;"></span>
+            
+            <h1 id="article-title" class="text-3xl md:text-5xl font-display font-black text-white leading-tight drop-shadow-lg">Ładowanie...</h1>
+            
+            <div id="article-meta-container" class="mt-6 flex justify-center items-center text-white font-bold text-lg drop-shadow-md" style="display: none;">
+                <!-- Wstrzyknięte przez JS -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Zmienione i ujednolicone paddingi (py-12 md:py-16) -->
+    <main class="py-12 md:py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article id="article-content" class="bg-white shadow-xl rounded-2xl p-8 md:p-12 text-gray-700 leading-relaxed text-lg prose prose-lg prose-main hover:prose-a:text-side3 max-w-none">
+            <!-- Treść zostanie załadowana przez JS -->
+        </article>
+        <div class="mt-10 text-center">
+            <button onclick="window.history.back()" class="text-side3 font-bold hover:text-main transition-colors focus:outline-none focus:ring-2 focus:ring-main focus:ring-offset-2 rounded-md px-4 py-2">&larr; Wróć</button>
+        </div>
+    </main>
+
+    <footer class="bg-side4 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <img src="https://i.imgur.com/xUbThg4.png" alt="Logo KMW" class="h-16 w-auto object-contain mb-4">
+                <p class="font-bold text-lg">Stowarzyszenie "Kolektyw Młodych Wizjonerów"</p>
+                <p class="text-sm mt-4 text-gray-400">Tworzymy przestrzeń do rozwoju dla młodzieży z całej Polski.</p>
+            </div>
+            <div>
+                <h2 class="font-bold text-xl mb-6 text-side1">Kontakt</h2>
+                <ul class="space-y-4 text-gray-200 text-sm">
+                    <li class="flex items-start">
+                        <span class="text-white font-semibold w-20 flex-shrink-0">Email:</span> 
+                        <a href="mailto:kolektywmlodychwizjonerow@gmail.com" class="break-all hover:text-main transition-colors focus:outline-none focus:ring-2 focus:ring-white rounded-sm px-1 -ml-1">kolektywmlodychwizjonerow@gmail.com</a>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-white font-semibold w-20 flex-shrink-0">Telefon:</span> 
+                        <a href="tel:+48786125191" class="hover:text-main transition-colors focus:outline-none focus:ring-2 focus:ring-white rounded-sm px-1 -ml-1">+48 786 125 191</a>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-white font-semibold w-20 flex-shrink-0">Adres:</span> 
+                        <span>ul. Michała Pietkiewicza 6/25<br>15-689 Białystok</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-white font-semibold w-20 flex-shrink-0">KRS:</span> 
+                        <span>0001107331</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-bold text-xl mb-6 text-side1">Ważne linki</h2>
+                <ul class="space-y-4 text-gray-200 text-sm">
+                    <li class="flex items-start">
+                        <a href="privacy.html" class="hover:text-main transition-colors underline focus:outline-none focus:ring-2 focus:ring-white rounded-sm px-1 -ml-1">Polityka prywatności</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-side3/50 text-center text-xs text-gray-400 font-semibold tracking-wider">
+            Copyright &copy; 2026 STOWARZYSZENIE "KOLEKTYW MŁODYCH WIZJONERÓW". Wszelkie prawa zastrzeżone.
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const type = urlParams.get('type');
+            const id = urlParams.get('id');
+
+            if (!type || !id) {
+                document.getElementById('article-title').innerText = "Nie znaleziono wpisu";
+                document.getElementById('article-content').innerHTML = "<p>Brak parametrów w adresie URL.</p>";
+                return;
+            }
+
+            const dataFile = type === 'news' ? 'data-news.json' : 'data-projects.json';
+
+            fetch(dataFile)
+                .then(response => response.json())
+                .then(data => {
+                    const item = data.find(i => i.id === id);
+                    if (!item) {
+                        document.getElementById('article-title').innerText = "Wpis nie istnieje";
+                        return;
+                    }
+
+                    document.title = `${item.title} - KMW`;
+                    document.getElementById('article-title').innerText = item.title;
+                    
+                    if(item.image) {
+                        document.getElementById('article-bg').style.backgroundImage = `url('${item.image}')`;
+                    } else {
+                        document.getElementById('article-bg').style.display = 'none';
+                    }
+
+                    const metaContainer = document.getElementById('article-meta-container');
+
+                    if (type === 'news') {
+                        if(item.tag) {
+                            const tagEl = document.getElementById('article-tag');
+                            tagEl.innerText = item.tag;
+                            tagEl.style.display = 'inline-block';
+                        }
+                        
+                        metaContainer.innerHTML = `
+                            <svg aria-hidden="true" class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            <span>${item.date}</span>
+                        `;
+                        metaContainer.style.display = 'flex';
+                    } 
+                    else {
+                        if(item.type) {
+                            const tagEl = document.getElementById('article-tag');
+                            tagEl.innerText = item.type;
+                            tagEl.style.display = 'inline-block';
+                        }
+
+                        metaContainer.innerHTML = `
+                            <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
+                                <span class="flex items-center">
+                                    <svg aria-hidden="true" class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                    ${item.duration || item.date}
+                                </span>
+                                <span class="hidden sm:inline-block" aria-hidden="true">|</span>
+                                <span class="flex items-center">
+                                    <svg aria-hidden="true" class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                    ${item.location}
+                                </span>
+                            </div>
+                        `;
+                        metaContainer.style.display = 'flex';
+                    }
+
+                    document.getElementById('article-content').innerHTML = item.content || "<p>Treść w przygotowaniu...</p>";
+                })
+                .catch(error => {
+                    console.error('Błąd:', error);
+                    document.getElementById('article-title').innerText = "Błąd połączenia";
+                });
+        });
+    </script>
+</body>
+</html>

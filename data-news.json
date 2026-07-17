@@ -1,0 +1,137 @@
+[
+    {
+        "id": "news-1",
+        "date": "17-07-2026",
+        "tag": "Sukces projektu",
+        "title": "Wróciliśmy z Hiszpanii! Zobacz naszą fotorelację",
+        "summary": "Niesamowity tydzień za nami. Młodzież z KMW uczyła się przedsiębiorczości i ekologii na słonecznym południu Europy. Zobaczcie zdjęcia!",
+        "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p class='mb-4'>To był niesamowity czas! Przez 8 dni w słonecznym Madrycie 40 młodych ludzi z całej Europy uczyło się, jak budować zrównoważone biznesy.</p><p class='mb-4'>Oto obiecane zdjęcie z naszych warsztatów na otwartym powietrzu:</p><figure><img src='https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' alt='Młodzież na warsztatach' class='w-full rounded-xl shadow-md'><figcaption class='text-center text-sm text-gray-500 mt-3 italic'>Podpis pod zdjęciem: Uczestnicy naszego projektu podczas intensywnej burzy mózgów w madryckim parku.</figcaption></figure><p>Dzięki metodom edukacji nieformalnej zintegrowaliśmy się błyskawicznie, a efektem naszej pracy są trzy gotowe plany biznesowe oparte na recyklingu i ekonomii obiegu zamkniętego.</p>"
+    },
+    {
+        "id": "news-2",
+        "date": "15-07-2026",
+        "tag": "Wydarzenie",
+        "title": "Spotkanie integracyjne w Warszawie",
+        "summary": "Zapraszamy wszystkich chętnych na otwarte spotkanie KMW, gdzie opowiemy o nadchodzących projektach Erasmus+.",
+        "image": "",
+        "content": "<p>Chcesz zacząć podróżować z nami, ale nie wiesz od czego zacząć? Zapraszamy na luźne spotkanie w Warszawie! Odpowiemy na wszystkie Wasze pytania.</p>"
+    },
+    {
+        "id": "news-3",
+        "date": "10-07-2026",
+        "tag": "Nowe Partnerstwo",
+        "title": "Podpisaliśmy umowę z organizacją z Włoch",
+        "summary": "Już wkrótce ogłosimy rekrutację na nowy, dwustronny projekt wymiany młodzieży.",
+        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p>Z dumą ogłaszamy, że Kolektyw Młodych Wizjonerów oficjalnie nawiązał partnerstwo ze świetną włoską organizacją z Rzymu. Rekrutacja wkrótce!</p>"
+    },
+    {
+        "id": "news-4",
+        "date": "05-07-2026",
+        "tag": "Ogłoszenie",
+        "title": "Szukamy koordynatorów wyjazdów (Group Leaders)",
+        "summary": "Masz doświadczenie w projektach Erasmus+? Dołącz do naszego zespołu jako Lider Grupy na wyjazd do Portugalii.",
+        "image": "",
+        "content": "<p>Aplikuj na Group Leadera! Wymagamy biegłego angielskiego, wieku minimum 20 lat i doświadczenia w przynajmniej 3 projektach międzynarodowych.</p>"
+    },
+    {
+        "id": "news-5",
+        "date": "01-07-2026",
+        "tag": "Edukacja",
+        "title": "Czym jest Youthpass? Wszystko, co musisz wiedzieć",
+        "summary": "Wyjaśniamy krok po kroku, czym jest najważniejszy certyfikat edukacji nieformalnej, który zdobywasz na każdym projekcie.",
+        "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p>Youthpass to europejskie narzędzie do uznawania efektów uczenia się. Rozpisujemy tam 8 kompetencji kluczowych zdobytych podczas wyjazdu.</p>"
+    },
+    {
+        "id": "news-6",
+        "date": "25-06-2026",
+        "tag": "Sukces",
+        "title": "Zdobyliśmy nagrodę lokalnej młodzieży!",
+        "summary": "Nasze działania zostały docenione przez radę miasta Białegostoku.",
+        "image": "",
+        "content": "<p>Z wielką radością przyjęliśmy wczoraj statuetkę za aktywizowanie lokalnej społeczności.</p>"
+    },
+    {
+        "id": "news-7",
+        "date": "18-06-2026",
+        "tag": "Relacja",
+        "title": "Tydzień na Cyprze - vlog uczestników",
+        "summary": "Zobaczcie krótki filmik nagrany przez polską grupę podczas projektu Ocean Protectors.",
+        "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p>Zamiast artykułu, oddajemy głos naszej ekipie. Filmik znajdziecie na naszym Instagramie.</p>"
+    },
+    {
+        "id": "news-8",
+        "date": "10-06-2026",
+        "tag": "Rekrutacja",
+        "title": "Otwieramy nabór na wolontariat lokalny",
+        "summary": "Chcesz pomagać nam w tworzeniu grafik i pisaniu postów? Dołącz do zespołu marketingowego KMW.",
+        "image": "",
+        "content": "<p>Szukamy pasjonatów Canvy, TikToka i pisania tekstów. Pomożemy Ci zbudować portfolio!</p>"
+    },
+    {
+        "id": "news-9",
+        "date": "02-06-2026",
+        "tag": "Poradnik",
+        "title": "Jak napisać list motywacyjny na Erasmusa?",
+        "summary": "5 sprawdzonych porad, dzięki którym Twoja aplikacja na projekt na pewno zostanie zauważona.",
+        "image": "https://images.unsplash.com/photo-1455390582262-044cdead2708?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p>Po pierwsze: bądź sobą. Po drugie: przeczytaj dokładnie Infopack i nawiąż do tematu wyjazdu!</p>"
+    },
+    {
+        "id": "news-10",
+        "date": "20-05-2026",
+        "tag": "Spotkanie",
+        "title": "KMW na targach NGO",
+        "summary": "Byliśmy obecni na białostockich targach organizacji pozarządowych. Dziękujemy za wszystkie rozmowy!",
+        "image": "",
+        "content": "<p>Rozdaliśmy setki ulotek i porozmawialiśmy z masą młodych ludzi. Do zobaczenia na projektach!</p>"
+    },
+    {
+        "id": "news-11",
+        "date": "15-05-2026",
+        "tag": "Wydarzenie",
+        "title": "Dzień Europy z KMW",
+        "summary": "Jak świętowaliśmy Dzień Europy? Quizy, nagrody i prezentacje możliwości programu Erasmus+.",
+        "image": "https://images.unsplash.com/photo-1464061462431-4c9522bf11fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p>To był intensywny dzień pełen europejskich barw. Dziękujemy szkołom za zaproszenia!</p>"
+    },
+    {
+        "id": "news-12",
+        "date": "05-05-2026",
+        "tag": "Relacja",
+        "title": "Szkolenie we Francji zakończone",
+        "summary": "Nasz zarząd wrócił ze szkolenia we Francji dotyczącego pisania projektów w nowej perspektywie finansowej.",
+        "image": "",
+        "content": "<p>Przywieźliśmy nową wiedzę, którą już wkrótce przekujemy w kolejne wspaniałe wyjazdy dla Was.</p>"
+    },
+    {
+        "id": "news-13",
+        "date": "20-04-2026",
+        "tag": "Sukces",
+        "title": "Kolejny projekt zatwierdzony!",
+        "summary": "Złożony przez nas w lutym wniosek uzyskał dofinansowanie z Narodowej Agencji.",
+        "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p>Już po wakacjach zabierzemy Was do Włoch na projekt o sztuce ulicznej. Bądźcie czujni!</p>"
+    },
+    {
+        "id": "news-14",
+        "date": "10-04-2026",
+        "tag": "Poradnik",
+        "title": "Co spakować na projekt? Checklista",
+        "summary": "Nie wiesz co zabrać? Stworzyliśmy uniwersalną listę rzeczy, o których nie możesz zapomnieć.",
+        "image": "",
+        "content": "<p>Paszport, karta EKUZ i dobry humor to podstawa. Ale co jeszcze? Sprawdźcie naszą listę.</p>"
+    },
+    {
+        "id": "news-15",
+        "date": "01-04-2026",
+        "tag": "Ogłoszenie",
+        "title": "Nowy Zarząd KMW wybrany",
+        "summary": "Podczas walnego zebrania stowarzyszenia wybraliśmy nowe władze na nadchodzącą kadencję.",
+        "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "content": "<p>Nowe twarze, nowe pomysły, nowa energia! Gratulujemy wybranym i życzymy owocnej pracy.</p>"
+    }
+]
