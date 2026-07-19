@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  branch: main # Upewnij się, że Twoja gałąź na GitHubie to 'main' (lub zmień na 'master')
+
+# Konfiguracja wgrywania zdjęć z panelu
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "baza_danych"
+    label: "Zarządzanie Treścią"
+    files:
+      # --- EDYTOR AKTUALNOŚCI ---
+      - file: "data-news.json"
+        label: "Aktualności (News)"
+        name: "news"
+        fields:
+          - name: "items"
+            label: "Lista Artykułów"
+            widget: "list"
+            fields:
+              - {label: "ID (unikalne, np. news-16)", name: "id", widget: "string"}
+              - {label: "Data (DD-MM-YYYY)", name: "date", widget: "string"}
+              - {label: "Tag (np. Sukces projektu)", name: "tag", widget: "string"}
+              - {label: "Tytuł", name: "title", widget: "string"}
+              - {label: "Krótki opis", name: "summary", widget: "text"}
+              - {label: "Zdjęcie główne", name: "image", widget: "image", required: false}
+              - {label: "Pełna treść", name: "content", widget: "markdown"}
+              
+      # --- EDYTOR PROJEKTÓW ---
+      - file: "data-projects.json"
+        label: "Projekty i Inicjatywy"
+        name: "projects"
+        fields:
+          - name: "items"
+            label: "Lista Projektów"
+            widget: "list"
+            fields:
+              - {label: "ID (unikalne, np. proj-16)", name: "id", widget: "string"}
+              - {label: "Status", name: "status", widget: "select", options: ["active", "past"]}
+              - {label: "Typ projektu", name: "type", widget: "string"}
+              - {label: "Tytuł projektu", name: "title", widget: "string"}
+              - {label: "Data sortowania (DD-MM-YYYY)", name: "date", widget: "string"}
+              - {label: "Wyświetlana data (np. 10-18 Sierpnia)", name: "duration", widget: "string"}
+              - {label: "Lokalizacja", name: "location", widget: "string"}
+              - {label: "Krótki opis", name: "summary", widget: "text"}
+              - {label: "Zdjęcie", name: "image", widget: "image", required: false}
+              - {label: "Link Infopack (tylko aktywne)", name: "infopack_url", widget: "string", required: false}
+              - {label: "Link Aplikacja (tylko aktywne)", name: "apply_url", widget: "string", required: false}
+              - {label: "Treść artykułu (głównie minione)", name: "content", widget: "markdown", required: false}
