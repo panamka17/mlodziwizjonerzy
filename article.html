@@ -186,7 +186,7 @@
             fetch(dataFile)
                 .then(response => response.json())
                 .then(data => {
-                    const item = data.find(i => i.id === id);
+                    const item = data.items.find(i => i.id === id);
                     if (!item) {
                         document.getElementById('article-title').innerText = "Wpis nie istnieje";
                         return;
