@@ -173,12 +173,12 @@
                     const container = document.getElementById('news-container');
                     const paginationContainer = document.getElementById('pagination-container');
                     
-                    if(data.length === 0) {
+                    if(!data.items || data.items.length === 0) {
                         container.innerHTML = '<p class="text-gray-500 text-center col-span-full">Brak aktualności do wyświetlenia.</p>';
                         return;
                     }
 
-                    data.sort((a, b) => {
+                    data.items.sort((a, b) => {
                         const parseDate = (dStr) => {
                             if(!dStr) return 0;
                             const parts = dStr.split('-');
@@ -189,13 +189,13 @@
 
                     const itemsPerPage = 12;
                     let currentPage = 1;
-                    const totalPages = Math.ceil(data.length / itemsPerPage);
+                    const totalPages = Math.ceil(data.items.length / itemsPerPage);
 
                     function renderPage(page) {
                         container.innerHTML = '';
                         const start = (page - 1) * itemsPerPage;
                         const end = start + itemsPerPage;
-                        const pageItems = data.slice(start, end);
+                        const pageItems = data.items.slice(start, end);
 
                         let html = '';
                         pageItems.forEach(item => {
