@@ -185,8 +185,8 @@
                     const pastContainer = document.getElementById('past-projects-container');
                     const paginationContainer = document.getElementById('pagination-container');
                     
-                    const activeProjects = data.filter(item => item.status === 'active');
-                    const pastProjects = data.filter(item => item.status === 'past');
+                    const activeProjects = data.items.filter(item => item.status === 'active');
+                    const pastProjects = data.items.filter(item => item.status === 'past');
 
                     const sortFn = (a, b) => {
                         const parseDate = (dStr) => {
