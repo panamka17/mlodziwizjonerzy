@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KMW Panel Administratora</title>
-    <!-- Ładowanie aplikacji Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-    <!-- Skrypt do obsługi logowania przez Netlify Identity -->
+    <!-- Skrypt do obsługi logowania przez Netlify Identity (zostaje w head) -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
+    <!-- WŁAŚCIWY CMS: Skrypt przeniesiony do body, żeby strona zdążyła się załadować -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    
     <!-- System logowania Netlify -->
     <script>
       if (window.netlifyIdentity) {
