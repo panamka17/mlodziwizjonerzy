@@ -55,6 +55,34 @@
       "id": "proj-4",
       "image": "/uploads/1000000857.jpg",
       "apply_url": "#"
+    },
+    {
+      "summary": "#",
+      "date": "29-04-2026",
+      "status": "past",
+      "duration": "29 kwietnia - 3 maja 2026",
+      "location": "Deštné v Orlických horách, Czechy 🇨🇿",
+      "infopack_url": "#",
+      "title": "Think Twice (It's Alright)",
+      "content": "\\#",
+      "type": "Partnerstwa na małą skalę",
+      "id": "proj-5",
+      "image": "/uploads/1000000859.jpg",
+      "apply_url": "#"
+    },
+    {
+      "summary": "#",
+      "date": "25-05-2026",
+      "status": "past",
+      "duration": "25 - 29 maja 2026",
+      "location": "Kaluža, Słowacja",
+      "infopack_url": "#",
+      "title": "Think Twice (It's Alright)",
+      "content": "\\#",
+      "type": "Partnerstwa na małą skalę",
+      "id": "proj-6",
+      "image": "/uploads/1000000860.jpg",
+      "apply_url": "#"
     }
   ]
 }
