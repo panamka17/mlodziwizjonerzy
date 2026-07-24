@@ -1,11 +1,22 @@
-[
+{
+  "items": [
     {
-        "id": "news-1",
-        "date": "17-07-2026",
-        "tag": "Sukces projektu",
-        "title": "Wróciliśmy z Hiszpanii! Zobacz naszą fotorelację",
-        "summary": "Niesamowity tydzień za nami. Młodzież z KMW uczyła się przedsiębiorczości i ekologii na słonecznym południu Europy. Zobaczcie zdjęcia!",
-        "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "content": "<p class='mb-4'>To był niesamowity czas! Przez 8 dni w słonecznym Madrycie 40 młodych ludzi z całej Europy uczyło się, jak budować zrównoważone biznesy.</p><p class='mb-4'>Oto obiecane zdjęcie z naszych warsztatów na otwartym powietrzu:</p><figure><img src='https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' alt='Młodzież na warsztatach' class='w-full rounded-xl shadow-md'><figcaption class='text-center text-sm text-gray-500 mt-3 italic'>Podpis pod zdjęciem: Uczestnicy naszego projektu podczas intensywnej burzy mózgów w madryckim parku.</figcaption></figure><p>Dzięki metodom edukacji nieformalnej zintegrowaliśmy się błyskawicznie, a efektem naszej pracy są trzy gotowe plany biznesowe oparte na recyklingu i ekonomii obiegu zamkniętego.</p>"
+      "id": "news-1",
+      "date": "17-07-2026",
+      "tag": "Sukces projektu",
+      "title": "Wróciliśmy z Hiszpanii! Zobacz naszą fotorelację",
+      "summary": "Niesamowity tydzień za nami. Młodzież z KMW uczyła się przedsiębiorczości i ekologii na słonecznym południu Europy.",
+      "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "content": "<p>To był niesamowity czas! Przez 8 dni w słonecznym Madrycie 40 młodych ludzi z całej Europy uczyło się, jak budować zrównoważone biznesy.</p>"
+    },
+    {
+      "id": "news-2",
+      "date": "15-07-2026",
+      "tag": "Wydarzenie",
+      "title": "Spotkanie integracyjne w Warszawie",
+      "summary": "Zapraszamy wszystkich chętnych na otwarte spotkanie KMW, gdzie opowiemy o nadchodzących projektach Erasmus+.",
+      "image": "",
+      "content": "<p>Chcesz zacząć podróżować z nami, ale nie wiesz od czego zacząć? Zapraszamy na luźne spotkanie w Warszawie!</p>"
     }
-]
+  ]
+}
