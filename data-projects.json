@@ -1,32 +1,32 @@
 {
   "items": [
     {
-      "id": "proj-1",
+      "summary": "Trzecia aktywność naszego projektu Erasmus+ Partnerstwa na małą skalę pochylającego się nad tematyką walki z dezinformacją.",
+      "date": "05-09-2026",
       "status": "active",
-      "type": "Wymiana młodzieży",
-      "title": "Youth for Green Future",
-      "date": "10-08-2026",
-      "duration": "10-18 Sierpnia 2026",
-      "location": "Ateny, Grecja 🇬🇷",
-      "summary": "Projekt wymiany młodzieży skupiający się na ekologii i recyklingu.",
-      "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "infopack_url": "#",
-      "apply_url": "#",
-      "content": "<p>Szczegóły aktywnego projektu pojawią się wkrótce.</p>"
+      "duration": "5-9 września 2026",
+      "location": "Białystok, Polska 🇵🇱",
+      "infopack_url": "https://drive.google.com/file/d/1xadxtK7raA9UJe3UGMVn06JKTIka0oDL/view?usp=drivesdk",
+      "title": "Think Twice (It's Alright)",
+      "content": "<p>Szczegóły aktywnego projektu pojawią się wkrótce.</p>",
+      "type": "Partnerstwa na małą skalę",
+      "id": "proj-1",
+      "image": "https://i.postimg.cc/1zZ6KRgY/branicki-palace-bialystok-web.jpg",
+      "apply_url": "#"
     },
     {
-      "id": "proj-3",
-      "status": "past",
-      "type": "Szkolenie",
-      "title": "Creative Minds",
+      "summary": "Wykorzystanie sztuki i mediów do rozwiązywania problemów społeczności.",
       "date": "10-05-2025",
+      "status": "past",
       "duration": "10-17 Maja 2025",
       "location": "Rzym, Włochy 🇮🇹",
-      "summary": "Wykorzystanie sztuki i mediów do rozwiązywania problemów społeczności.",
-      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "infopack_url": "",
-      "apply_url": "",
-      "content": "<p>Creative Minds był niezwykłym projektem. Razem z młodzieżą z 5 krajów spędziliśmy tydzień w Rzymie.</p>"
+      "title": "Creative Minds",
+      "content": "<p>Creative Minds był niezwykłym projektem. Razem z młodzieżą z 5 krajów spędziliśmy tydzień w Rzymie.</p>",
+      "type": "Szkolenie",
+      "id": "proj-3",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "apply_url": ""
     }
   ]
 }
