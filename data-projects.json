@@ -27,6 +27,34 @@
       "id": "proj-2",
       "image": "/uploads/1000000853.jpg",
       "apply_url": ""
+    },
+    {
+      "summary": "#",
+      "date": "07-11-2025",
+      "status": "past",
+      "duration": "7-16 listopada",
+      "location": "Traisteni, Rumunia 🇷🇴",
+      "infopack_url": "#",
+      "title": "Open Minds, Open Worlds",
+      "content": "\\#",
+      "type": "Wymiana młodzieży",
+      "id": "proj-3",
+      "image": "/uploads/1000000855.jpg",
+      "apply_url": "#"
+    },
+    {
+      "summary": "#",
+      "date": "23-03-2026",
+      "status": "past",
+      "duration": "23-31 marca 2026",
+      "location": "Deštné v Orlických horách, Czechy 🇨🇿",
+      "infopack_url": "#",
+      "title": "EUth: Understanding Media",
+      "content": "\\#",
+      "type": "Wymiana młodzieży",
+      "id": "proj-4",
+      "image": "/uploads/1000000857.jpg",
+      "apply_url": "#"
     }
   ]
 }
