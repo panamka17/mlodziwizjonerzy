@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/thinktwicebrochure"
+  to = "/think-twice-brochure.html"
+  status = 200
+  force = true
